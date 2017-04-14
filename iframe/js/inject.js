@@ -1,1 +1,1 @@
-var xlTestInjectObj = 'test-by-xl'
+var xlTestInjectObj = 'test-by-xl, iframe'

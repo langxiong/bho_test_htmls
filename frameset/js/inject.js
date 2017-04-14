@@ -1,0 +1,1 @@
+var xlTestInjectObj = 'test-by-xl, frameset'
