@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>test div</title>
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="css/common.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+	</head>
+	<script>
+		$(document).ready(function() {
+			$('#content').load("./applysubmit1.html");
+			$('#applysubmit1').click(function() {
+				$('#content').load("./applysubmit1.html");
+			});
+			$('#applysubmit2').click(function() {
+				$('#content').load("./applysubmit2.html");
+			});
+			$('#applysubmit3').click(function() {
+				$('#content').load("./applysubmit3.html");
+			});
+		});
+	</script>
+
+	<body>
+		<div>test button
+			<br>
+			<button id="applysubmit1">applysubmit1</button>
+			<button id="applysubmit2">applysubmit2</button>
+			<button id="applysubmit3">applysubmit3</button>
+			<br>
+			<input value="aaa" />
+		</div>
+		<div id="content"></div>
+        <div>
+            <button type="button" onclick="alert(xlTestInjectObj)">Click Me!</button>
+        </div>
+	</body>
+
+</html>
